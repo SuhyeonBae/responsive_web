@@ -1,0 +1,175 @@
+body {
+  background-color: #fcfaee;
+}
+.info {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.info img {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.info h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.4em;
+}
+
+.info p {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1em;
+  line-height: 2em;
+  color: #000;
+  padding: 5px 20px;
+  margin-top: 20px;
+  text-align: jusify;
+}
+
+.subinfo {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tastes {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.taste {
+  flex-flow: row wrap;
+  width: 30%;
+  padding: 5%;
+  line-height: 1.5em;
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+.tastes img {
+  border-radius: 40%;
+  width: 90px;
+  height: 90px;
+}
+
+select {
+  float: center;
+  border: none;
+  background-color: #dfdfdf;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+details > summary {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px;
+  border-bottom: 1px solid #dfdfdf;
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details p {
+  width: 80%;
+  margin: 0 auto;
+  font-weight: 300;
+  padding: 30px;
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+
+.subitem {
+  display: flex;
+  margin-top: 5%;
+  width: 90%;
+}
+.subitem .info,
+.subitem .subinfo {
+  flex-flow: column wrap;
+}
+
+.subitem .info {
+  margin-left: 10%;
+}
+
+.subinfo h1,
+.subinfo p {
+  line-height: 2em;
+}
+.subinfo h1 {
+  font-size: 1.2em;
+}
+
+.subitem .taste {
+  width: 40%;
+  padding: 0;
+  margin-top: 20px;
+}
+
+@media all and (max-width: 1199px) {
+  .info,
+  .subinfo {
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .info,
+  .subinfo {
+    width: 100%;
+  }
+  .info img {
+    width: 80%;
+  }
+  .info p {
+    width: 80%;
+    font-size: 1em;
+    line-height: 1.8em;
+  }
+  .subinfo p {
+    line-height: 1.5em;
+    font-size: 0.9em;
+  }
+  .taste {
+    flex-flow: row wrap;
+    width: 50%;
+    font-size: 0.8em;
+  }
+  .taste p {
+    padding: 5px;
+  }
+  .tastes img {
+    border-radius: 40%;
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .info img {
+    width: 90%;
+  }
+
+  .info p {
+    width: 90%;
+  }
+
+  .subitem {
+    display: felx;
+    flex-flow: column wrap;
+  }
+  .subitem .info img {
+    width: 60%;
+  }
+}
+
+@media all and (max-width: 575px) {
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../style/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../style/style.css" />
+    <link rel="stylesheet" type="text/css" href="../style/style_detail.css">
+    <!-- Font Awsome Kit-->
+    <script src="https://kit.fontawesome.com/f3e6da21dd.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+    <title>New Items | Jo Malone</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+    <header id="new">
+      <!-- navigation bar 만든 부분-->
+      <nav class="navbar">
+        <div class="navbar_logo">
+          <a href="index.html"><img src="../images/logo_white.png" alt="Jo Malone Logo" width=200px></a>
+        </div>
+
+        <ul class="navbar_menu">
+          <li class="items"><a href="products_new.html">신제품</a></li>
+          <li class="items"><a href="products_best.html">베스트셀러</a></li>
+          <li class="items"><a href="products_fragrance.html">프레그런스</a></li>
+          <li class="items"><a href="products_home.html">홈컬렉션</a></li>
+        </ul>
+        
+          <ul class="navbar_icons">
+
+            <li class="search-box">
+              <input class="search-txt" type="text" name="" placeholder="검색">
+              <a class="search-btn" href="#">
+                <i class="fas fa-search"></i>
+              </a>
+            </li>
+            <a href="login.html"><li class="icons"><i class="fas fa-user"></i></li></a>
+            <a href="#"><li class="icons"><i class="fas fa-shopping-cart"></i></li></a>
+          </ul>
+        <!-- Toggle button -->
+        <a href="#" class="navbar_toggleBtn">
+          <i class="fas fa-bars"></i>
+        </a>
+      </nav>
+      <div class="title">
+        <p>New Items</p>
+      </div>
+    </header>
+          
+  
+
+    <section id="new_items">
+      <select class="m_menu" onchange="if(this.value) location.href=(this.value);">
+        <option value="#">신제품 목록</option>
+        <option value="new01.html">[온라인 단독] 블로썸 코롱 컬렉션</option>
+        <option value="new02.html">블로썸 컬렉션</option>
+        <option value="new03.html">와일드 블루벨 디퓨저</option>
+        <option value="new04.html">바디 앤 핸드워시</option>
+        <option value="new05.html">리틀 럭셔리스 트리오</option>
+      </select>
+      <div class="new_item">
+        <p>* 상세한 정보를 보고싶으시다면 보틀을 클릭하세요</p>
+        <div class="new_item_name">
+          <p>[온라인 단독] 블로썸 코롱 컬렉션</p>
+          <p>블로썸 컬렉션</p>
+        </div>
+        <div class="new_item_img">
+          <a href="new01.html" target="iframe_new"><img src="../images/new01-1.png" alt="[온라인 단독] 블로썸 코롱 컬렉션"></a>
+          <a href="new03.html" target="iframe_new"><img src="../images/new03-1.png" alt="블로썸 컬렉션"></a> 
+        </div>
+      </div>
+
+      <div class="new_item">
+        <div class="new_item_name_2">
+          <p>와일드 블루벨 디퓨저</p>
+          <p>바디 앤 핸드워시</p>
+          <p>리틀 럭셔리스 트리오</p>
+        </div>
+      <div class="new_item_img">
+        <a href="new02.html" target="iframe_new"><img src="../images/new02-1.png" alt="와일드 블루벨 디퓨저"></a>
+        <a href="new04.html" target="iframe_new"><img src="../images/new04-1.png" alt="바디 앤 핸드워시"></a> 
+        <a href="new05.html" target="iframe_new"><img src="../images/new05-1.png" alt="리틀 럭셔리스 트리오"></a> 
+      </div>
+
+    </div>
+      <div class="iframe">
+      <iframe src="iframe.html" frameborder="0" name="iframe_new"></iframe>
+      </div>
+      <a href="#new_items"><i class="fas fa-angle-up"></i></a>
+
+      <footer>
+        <ul class="submenu">
+          <a href="https://www.jomalone.co.kr/world-of-jo-malone" target="_blank"><li>About Jo Malone</li> </a>
+          <a href="products_best.html"><li>Most Loved</li></a>
+          <a href="products_new.html"><li>New Items</li></a>
+          <a href="products_fragrance.html"><li>Fragrances</li></a>
+          <a href="products_home.html"><li>Home Collection</li></a>
+        </ul>
+        <ul class="sns">
+          <li class="sns_item">
+            <a href="https://www.facebook.com/JoMaloneLondon/" target="_blank"><i class="fab fa-facebook-f"></i> </a>
+          </li>
+          <li class="sns_item">
+            <a href="https://www.instagram.com/jomalonelondon/" target="_blank"><i class="fab fa-instagram"></i> </a>
+          </li>
+          <li class="sns_item">
+            <a href="https://twitter.com/JoMaloneLondon/" target="_blank"><i class="fab fa-twitter"></i> </a>
+          </li>
+        </ul>
+  
+        <div class="copyright">
+          Responsive Website Portfolio based on Jo Malone Contents.
+          <br />Copyright&copy;Suhyeon 2020.08.07
+        </div>
+      </footer>
+    </section>
+      
+  </div>
+
+  </div>
+
+  </body>
+</html>

@@ -1,0 +1,737 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+@font-face {
+  font-family: "karam";
+  src: url(../images/karam.ttf);
+}
+
+/*******************************************************************************
+                          상세페이지 공통 부분
+*******************************************************************************/
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar li,
+.navbar a {
+  color: rgba(255, 255, 255, 0.5);
+}
+.navbar li:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar_logo img {
+  opacity: 0.9;
+}
+
+.search-box {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.search-btn {
+  color: rgba(0, 0, 0, 0.7);
+  background: none;
+}
+
+header#new {
+  background: url("../images/main06.jpg") no-repeat center/cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+header#best {
+  background: url("../images/main07.jpg") no-repeat center/cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+header#fragrances {
+  background: url("../images/main08.jpg") no-repeat center/cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+header#home {
+  background: url("../images/main09.jpg") no-repeat center/cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+
+.search-txt {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.title {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0 auto;
+  padding-top: 190px;
+  height: 500px;
+  text-align: center;
+}
+
+.title p {
+  font-family: "Italiana";
+  font-size: 3em;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+section {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+footer {
+  justify-content: flex-end;
+  width: 100%;
+  padding: 50px 5%;
+  background-color: #f8f8f8bb;
+  margin-top: 40px;
+}
+
+/*******************************************************************************
+                          신제품 : products_new.html css부분
+*******************************************************************************/
+#new_items {
+  width: 100%;
+  height: 100%;
+  background-color: #fcfaee;
+  margin-top: -30px;
+}
+
+#new_items iframe {
+  width: 100%;
+  height: 1500px;
+  background-color: #fcfaee;
+  margin-top: 5%;
+}
+
+.new_item {
+  border-bottom: 8px solid #010101;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.new_item p {
+  font-family: "karam";
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.new_item_img,
+.new_item_name {
+  margin: 0 auto;
+}
+
+.new_item_name p {
+  display: inline;
+  position: relative;
+  top: 80px;
+  left: 15%;
+  margin-right: 300px;
+  font-family: "karam";
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.new_item_name_2 p {
+  display: inline;
+  position: relative;
+  top: 80px;
+  left: 10%;
+  margin-right: 180px;
+  font-family: "karam";
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.new_item_img img {
+  position: relative;
+  height: 250px;
+  top: 100px;
+  left: 5%;
+  margin-right: 5%;
+}
+
+.new_item_img img:hover {
+  top: 80px;
+}
+
+.fa-angle-up {
+  position: relative;
+  left: 50%;
+  font-size: 2.5em;
+  margin-top: 30px;
+}
+.m_menu {
+  display: none;
+  margin: 5% auto 0;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #010101;
+  color: #fff;
+  font-size: 1.3em;
+}
+/*******************************************************************************
+                          베스트셀러 : products_best.html css부분
+*******************************************************************************/
+#best_items {
+  width: 100%;
+  height: 100%;
+  background-color: #fcfaee;
+  margin-top: -30px;
+}
+
+#best_items iframe {
+  width: 100%;
+  height: 1600px;
+  background-color: #fcfaee;
+  margin-top: 5%;
+}
+
+.best_item {
+  border-bottom: 8px solid #010101;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.best_item p {
+  font-family: "karam";
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.best_item_img,
+.best_item_name {
+  margin: 0 auto;
+}
+
+.best_item_name p {
+  display: inline;
+  position: relative;
+  top: 100px;
+  left: 25%;
+  margin-right: 7%;
+  font-family: "karam";
+  font-size: 1.5em;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.best_item_img img {
+  position: relative;
+  width: 15%;
+  top: 200px;
+  left: 22%;
+  margin-right: 5%;
+  margin-top: -5%;
+}
+
+.best_item_img img:hover {
+  top: 170px;
+}
+
+.fa-angle-up {
+  position: relative;
+  left: 50%;
+  font-size: 2.5em;
+  margin-top: 30px;
+}
+
+.m_menu {
+  display: none;
+  margin: 5% auto 0;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #010101;
+  color: #fff;
+}
+
+/*******************************************************************************
+                          프레그런스 : Products_fragrance.html css부분
+*******************************************************************************/
+#all_items article {
+  position: relative;
+  float: left;
+  width: 25%;
+  height: 370px;
+  background-color: skyblue;
+  border: 3px solid #fcfaee;
+}
+
+#all_items article:hover {
+  opacity: 0.8;
+}
+#all_items article p {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px 8px;
+  text-align: center;
+  position: absolute;
+  bottom: 8%;
+  left: 25%;
+  right: -12.5%;
+  width: 55%;
+}
+#all_items article a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#all_items article:nth-child(1) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_154.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(2) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_GF.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(3) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_NBH.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(4) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_DAGL.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(5) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_LBM.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(6) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_RR.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(7) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_MT.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(8) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_MC.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(9) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_BN.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(10) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_VGV_v2.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(11) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_VRO.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(12) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_BB.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(13) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_AL.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(14) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_EGC.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(15) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_OuB.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(16) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_OB.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(17) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_WB.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(18) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_WSSS.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(19) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_EOH.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(20) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_EPF.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(21) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_TA.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(22) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_PN.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(23) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_PoppyBarley.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(24) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_PBS.jpg")
+    no-repeat center;
+}
+#all_items article:nth-child(25) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/Meganav/Shop%20By%20Scent/1879_WEB_ShopByScent_HSD.jpg")
+    no-repeat center;
+}
+
+/*******************************************************************************
+                          홈컬렉션 : products_home.html css부분
+*******************************************************************************/
+#home_items {
+  text-align: center;
+  position: relative;
+  float: center;
+  margin: 20px;
+}
+
+#home_items article {
+  position: relative;
+  display: inline-block;
+  width: 20%;
+  height: 370px;
+  background-color: skyblue;
+  border: 1px dotted #010101;
+  margin: 15px 20px;
+}
+
+#home_items article:hover {
+  opacity: 0.8;
+}
+#home_items article p {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px 8px;
+  text-align: center;
+  position: absolute;
+  bottom: 8%;
+  left: 25%;
+  right: -12.5%;
+  width: 55%;
+}
+#home_items article a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#home_items article:nth-child(1) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/products/130x180/jo_LENC01_130x180.jpg")
+    no-repeat top;
+}
+#home_items article:nth-child(2) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/products/130x180/jo_L92W01_130x180.jpg")
+    no-repeat top;
+}
+#home_items article:nth-child(3) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/products/130x180/jo_L92X01_130x180.jpg")
+    no-repeat top;
+}
+#home_items article:nth-child(4) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/products/130x180/jo_L2W6_130x180.jpg")
+    no-repeat top;
+}
+#home_items article:nth-child(5) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/products/130x180/jo_L2W7_130x180.jpg")
+    no-repeat top;
+}
+#home_items article:nth-child(6) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/products/130x180/jo_L92T01_130x180.jpg")
+    no-repeat top;
+}
+#home_items article:nth-child(7) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/products/130x180/jo_L2W5_130x180.jpg")
+    no-repeat top;
+}
+#home_items article:nth-child(8) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/products/130x180/jo_L3AL01_130x180.jpg")
+    no-repeat top;
+}
+#home_items article:nth-child(9) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/products/130x180/jo_L39N01_130x180.jpg")
+    no-repeat top;
+}
+#home_items article:nth-child(10) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/products/130x180/jo_L2W9_130x180.jpg")
+    no-repeat top;
+}
+#home_items article:nth-child(11) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/products/130x180/jo_L2WA_130x180.jpg")
+    no-repeat top;
+}
+#home_items article:nth-child(12) {
+  background: url("https://www.jomalone.co.kr/media/export/cms/products/130x180/jo_L3AK01_130x180.jpg")
+    no-repeat top;
+}
+
+/****************************************************************
+                          미디어 쿼리
+****************************************************************/
+@media all and (max-width: 1500px) {
+  .best_item_name p {
+    left: 20%;
+    margin-right: 5%;
+    font-size: 1.4em;
+  }
+  #best_items iframe {
+    height: 1300px;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  .new_item_name p {
+    left: 7%;
+    margin-right: 200px;
+    transition: 0.4s;
+  }
+
+  .new_item_name_2 p {
+    left: 8%;
+    margin-right: 80px;
+  }
+
+  .new_item_img img {
+    height: 220px;
+    left: 2%;
+    margin-right: 2%;
+  }
+  #new_items iframe {
+    height: 1280px;
+    margin-top: 5%;
+  }
+
+  .best_item p {
+    margin-bottom: -3%;
+  }
+  .best_item_img img {
+    width: 16%;
+    top: 170px;
+    margin-top: -5%;
+  }
+
+  .best_item_img img:hover {
+    top: 150px;
+  }
+  .best_item_name p {
+    left: 15%;
+    top: 90px;
+    margin-right: 5%;
+    font-size: 1.4em;
+  }
+  #best_items iframe {
+    height: 1200px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  header#new,
+  header#best,
+  header#fragrances,
+  header#home {
+    height: 550px;
+    transition: all 0.4s;
+  }
+  .title {
+    padding-top: 150px;
+    height: 450px;
+  }
+  #all_items article {
+    width: 33.3%;
+    border: 5px solid white;
+  }
+  #home_items article {
+    width: 28%;
+    border: 5px solid white;
+  }
+  #best_items iframe {
+    height: 1200px;
+  }
+}
+
+@media all and (max-width: 899px) {
+  #home_items {
+    margin: 0 auto;
+  }
+  #home_items article {
+    width: 40%;
+    border: 5px solid white;
+  }
+  .new_item {
+    border-bottom: none;
+    overflow: visible;
+    margin-bottom: 50px;
+    padding: 0 2%;
+  }
+  .new_item_name p {
+    display: none;
+  }
+
+  .new_item_name_2 p {
+    display: none;
+  }
+
+  .new_item_img img {
+    width: 31%;
+    height: auto;
+    top: 30px;
+  }
+
+  .new_item_img img:hover {
+    top: 18px;
+  }
+  #new_items iframe {
+    height: 1280px;
+    margin-top: 15%;
+  }
+  .best_item_name p {
+    display: none;
+  }
+  .best_item_img img {
+    width: 17%;
+    top: 150px;
+  }
+  .best_item_img img:hover {
+    top: 130px;
+  }
+  #best_items iframe {
+    height: 1100px;
+  }
+}
+
+@media all and (max-width: 856px) {
+  header#new,
+  header#best,
+  header#fragrances,
+  header#home {
+    height: 530px;
+  }
+  .new_item_img img {
+    width: 30%;
+    height: auto;
+    top: 30px;
+  }
+  .new_item_img img:hover {
+    top: 18px;
+  }
+  .best_item_img img {
+    top: 140px;
+  }
+  .best_item_img img:hover {
+    top: 120px;
+  }
+  #new_items iframe,
+  #best_items iframe {
+    height: 1100px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .navbar_menu {
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+  }
+
+  .navbar_menu .items:hover {
+    text-align: center;
+    background-color: #e2e2e265;
+  }
+  .navbar_menu a:hover {
+    color: #fff;
+  }
+
+  header#new,
+  header#best,
+  header#fragrances,
+  header#home {
+    height: 450px;
+  }
+  .title {
+    padding-top: 100px;
+    height: 370px;
+  }
+
+  .new_item_img img {
+    width: 30%;
+    height: auto;
+    top: 20px;
+  }
+
+  .new_item_img img:hover {
+    top: 10px;
+  }
+
+  #all_items article {
+    width: 50%;
+    border: 8px solid white;
+  }
+  .best_item_img img {
+    top: 120px;
+  }
+  .best_item_img img:hover {
+    top: 100px;
+  }
+  #new_items iframe,
+  #best_items iframe {
+    height: 1000px;
+  }
+}
+
+@media all and (max-width: 599px) {
+  header#new,
+  header#best,
+  header#fragrances,
+  header#home {
+    height: 250px;
+  }
+  .title {
+    padding-top: 30px;
+    height: 200px;
+    font-size: 0.8em;
+  }
+  .new_item {
+    display: none;
+  }
+
+  .best_item {
+    display: none;
+  }
+  .m_menu {
+    display: block;
+  }
+
+  #all_items article,
+  #home_items article {
+    width: 100%;
+    float: center;
+    border: 8px solid white;
+  }
+
+  #new_items iframe,
+  #best_items iframe {
+    height: 55vh;
+    margin: 0;
+  }
+
+  .fa-angle-up {
+    color: rgba(0, 0, 0, 0);
+  }
+}
